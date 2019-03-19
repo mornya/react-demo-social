@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+$--color-primary: #61dafb;
+$--color-dark: #32363d;
+$--color-bg: #282c33;
+
+html, body {
+  background-color: $--color-bg;
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  margin: 0 2px;
+  padding: 4px 8px;
+  border: 1px solid $--color-primary;
+  border-radius: 8px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  color: rgba($--color-primary, .6);
+}
+
+button {
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: rgba($--color-primary, .3);
+  border: 1px solid $--color-primary;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+
+  &:hover {
+    background-color: rgba($--color-primary, .4);
+    cursor: pointer;
+  }
+}
+
+/* Common blind text class */
+.blind {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 0;
+  background: none;
+  font-size: 0;
+  line-height: 0;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-wrapper {
+  overflow: hidden;
+  position: relative;
+
+  .app-logo {
+    position: absolute;
+    top: -512px;
+    right: -512px;
+    height: 1024px;
+    animation: app-logo-spin infinite 60s linear;
+  }
+
+  header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #fff;
+
+    & > * {
+      position: relative;
+      z-index: 0;
+    }
+    & > h1 {
+      line-height: 1;
+      font-size: 5em;
+    }
+    & > p {
+      margin: 0;
+      line-height: 1.4em;
+      font-size: 0.9em;
+    }
+    & > i {
+      margin: 10px 0;
+      font-size: 0.5em;
+      color: rgba(#fff, .6);
+    }
+
+    .btn-grp {
+      text-align: center;
+    }
+  }
+
+  footer {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 11px;
+    color: rgba(#999, .3);
+  }
+}

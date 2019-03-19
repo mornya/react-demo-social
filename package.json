@@ -1,0 +1,93 @@
+{
+  "name": "react-demo-social",
+  "version": "0.0.1",
+  "description": "A demo application for Social Shares and Widgets.",
+  "keywords": [],
+  "homepage": "",
+  "license": "MIT",
+  "author": "mornya <mornya78@gmail.com>",
+  "private": true,
+  "repository": "https://github.com/mornya/react-demo-social.git",
+  "bugs": "https://github.com/mornya/react-demo-social/issues",
+  "scripts": {
+    "login": "react-vessel login",
+    "lint": "react-vessel lint",
+    "clean": "react-vessel clean",
+    "build": "react-vessel build",
+    "start": "react-vessel start",
+    "test": "react-vessel test"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=6"
+  },
+  "dependencies": {
+    "@mornya/react-helper": "latest",
+    "@mornya/react-social-libs": "latest",
+    "classnames": "latest",
+    "immer": "latest",
+    "normalize.css": "latest",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "@types/jest-diff": "latest",
+    "@types/node": "^11.9.5",
+    "@types/react": "^16.8.5",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-router-dom": "^4.3.1",
+    "jest": "^24.1.0",
+    "prop-types": "^15.7.2",
+    "ts-jest": "latest",
+    "tslint": "^5.13.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3333"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": {
+    "/mock/": {
+      "target": "http://localhost:8080",
+      "pathRewrite": {
+        "^/mock/": ""
+      },
+      "secure": false,
+      "changeOrigin": false,
+      "ws": false,
+      "xfwd": true
+    }
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": true
+    }
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "\\.test\\.[t|j]sx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "globals": {
+      "ts-jest": {
+        "diagnostics": true
+      }
+    }
+  }
+}

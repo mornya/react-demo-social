@@ -39,7 +39,7 @@ export default function App () {
             <Share.LinkedIn title="링크드인 공유"/>
             <Share.Naver title="네이버 공유"/>
             <Share.NaverBlog title="네이버 블로그 공유"/>
-            <Share.SMS title="SMS 공유" extra={{ target: '+821025060434' }}/>
+            <Share.SMS title="SMS 공유" extra={{ target: '+821011111111' }}/>
             <Share.Telegram title="텔레그램 공유" extra={{ message: () => '아래와 같이 링크를 공유합니다.' }}/>
             <Share.Tumblr title="텀블러 공유"/>
             <Share.Twitter title="트위터 공유" extra={{ hashtags: ['mornya', '트위터공유'] }}/>

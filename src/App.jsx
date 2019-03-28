@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Share, Widget } from '@mornya/react-social-libs'
 import { Configure } from 'constants/configure'
 import logo from './assets/logo.svg'
-import '@mornya/react-social-libs/dist/res/default.css'
+import '@mornya/react-social-libs/dist/res/share.scss'
 import './App.scss'
 
 export default function App () {
@@ -23,7 +23,6 @@ export default function App () {
             <Share.Flipboard title="플립보드 공유"/>
             <Share.Gmail title="G메일 공유"/>
             <Share.GoogleBookmarks title="구글 북마크 공유"/>
-            <Share.GooglePlus title="구글+ 공유"/>
             <Share.KakaoStory
               title="카카오스토리 공유"
               extra={{
@@ -41,7 +40,7 @@ export default function App () {
             <Share.NaverBlog title="네이버 블로그 공유"/>
             <Share.SMS title="SMS 공유" extra={{ target: '+821011111111' }}/>
             <Share.Telegram title="텔레그램 공유" extra={{ message: () => '아래와 같이 링크를 공유합니다.' }}/>
-            <Share.Tumblr title="텀블러 공유"/>
+            <Share.Tumblr title="텀블러 공유" extra={{ hashtags: ['mornya', '텀블러공유']}}/>
             <Share.Twitter title="트위터 공유" extra={{ hashtags: ['mornya', '트위터공유'] }}/>
           </div>
 
@@ -53,16 +52,12 @@ export default function App () {
               pageUrl: 'https://developers.facebook.com/docs/plugins/',
             }}/>
             <Widget.FlipboardFlipit/>
-            <Widget.GoogleFollow extra={{
-              pageId: '113817101336504894654',
-            }}/>
-            <Widget.GooglePlusOne extra={{
-              pageId: '113817101336504894654',
-            }}/>
             <Widget.KakaoStoryFollow extra={{
               appId: Configure.social.kakao.appId,
               subscribeChannelId: 'mornya',
             }}/>
+            <Widget.TumblrFollow extra={{ tumblelog: 'mornya' }}/>
+            <Widget.TumblrPost extra={{ hashtags: ['mornya', '텀블러공유']}}/>
             <Widget.TwitterFollow extra={{
               screenName: '@mornyacom',
             }}/>

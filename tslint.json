@@ -23,6 +23,7 @@
     "ordered-imports": false,
     "prefer-for-of": false,
     "quotemark": false,
+    "semicolon": false,
     "space-before-function-paren": false,
     "trailing-comma": [
       true,

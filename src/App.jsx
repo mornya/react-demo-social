@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Share, Widget } from '@mornya/react-social-libs'
 import { Configure } from 'constants/configure'
 import logo from './assets/logo.svg'
-import '@mornya/react-social-libs/dist/res/share.scss'
+import '@mornya/react-social-libs/dist/res/share.css'
 import './App.scss'
 
 export default function App () {

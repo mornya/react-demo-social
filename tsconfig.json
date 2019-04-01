@@ -38,10 +38,6 @@
     "dist",
     "node_modules",
     ".idea",
-    ".git",
-    "src/**/*.test.ts",
-    "src/**/*.test.tsx",
-    "src/**/*.test.js",
-    "src/**/*.test.jsx"
+    ".git"
   ]
 }

@@ -26,6 +26,13 @@ $ npm install -g @mornya/react-vessel
 
 ### Available Scripts
 
+#### `Analyze`
+> `production mode`로 컴파일된 번들의 용량을 체크한다. `file` 파라미터를 추가하면 프로젝트 루트 경로에 `stats.json` 파일을 출력한다.
+```bash
+$ npm run analyze
+$ npm run analyze file
+```
+
 #### `Clean`
 > 빌드 output 디렉토리 경로를 삭제한다.
 ```bash

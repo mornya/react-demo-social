@@ -15,7 +15,8 @@
     "clean": "react-vessel clean",
     "build": "react-vessel build",
     "start": "react-vessel start",
-    "test": "react-vessel test"
+    "test": "react-vessel test",
+    "analyze": "react-vessel analyze"
   },
   "engines": {
     "node": ">=8",
@@ -23,7 +24,7 @@
   },
   "dependencies": {
     "@mornya/react-helper": "latest",
-    "@mornya/react-social-libs": "^2.0.1",
+    "@mornya/react-social-libs": "^2.0.4",
     "classnames": "latest",
     "immer": "latest",
     "normalize.css": "latest",
@@ -43,6 +44,7 @@
     "@types/react-redux": "^7.0.1",
     "@types/react-router-dom": "^4.3.1",
     "jest": "^24.1.0",
+    "jest-transform-file": "^1.1.1",
     "prop-types": "^15.7.2",
     "ts-jest": "latest",
     "tslint": "^5.13.0",
@@ -75,7 +77,8 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.tsx?$": "ts-jest"
+      ".[t|j]sx?$": "ts-jest",
+      ".(bmp|gif|jpg|jpeg|png|svg|webp)$": "jest-transform-file"
     },
     "testRegex": "\\.test\\.[t|j]sx?$",
     "moduleFileExtensions": [

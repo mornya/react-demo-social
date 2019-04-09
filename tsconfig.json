@@ -3,6 +3,10 @@
     "module": "esnext",
     "moduleResolution": "node",
     "target": "es5",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
     "types": [
       "node",
       "jest"
@@ -17,7 +21,6 @@
     "jsx": "react",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "skipLibCheck": true,
     "allowJs": true,
     "checkJs": false,

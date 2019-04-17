@@ -1,14 +1,14 @@
-export const Configure = {
+export default {
   social: {
     facebook: {
-      appId: process.env.FACEBOOK_APPID,
-      scope: process.env.FACEBOOK_SCOPE.split(',').map(item => item.trim()),
+      appId: '1653578091421453',
+      scope: ['public_profile', 'email', 'user_friends'],
     },
     google: {
-      scope: process.env.GOOGLE_SCOPE.split(',').map(item => item.trim()),
+      scope: [],
     },
     kakao: {
-      appId: process.env.KAKAO_APPID,
+      appId: 'f088721e2c0e995d5f8741c759250181',
     },
   },
 }

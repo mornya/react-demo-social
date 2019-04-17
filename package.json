@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@mornya/react-helper": "latest",
-    "@mornya/react-social-libs": "^2.0.4",
+    "@mornya/react-social-libs": "^2.0.5",
     "classnames": "latest",
     "immer": "latest",
     "normalize.css": "latest",

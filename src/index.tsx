@@ -8,7 +8,7 @@ const option: Ignite.IOption = {
     rootElementId: 'app',
     useServiceWorker: true,
     useBrowserRouter: true,
-    onHotReload: next => module.hot.accept('./App', next),
+    onHotReload: next => module.hot && module.hot.accept('./App', next),
   },
 };
 

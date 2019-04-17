@@ -31,6 +31,7 @@
   "dependencies": {
     "@mornya/react-helper": "latest",
     "@mornya/react-social-libs": "^2.0.4",
+    "@mornya/react-vessel": "latest",
     "classnames": "latest",
     "immer": "latest",
     "normalize.css": "latest",
@@ -56,9 +57,6 @@
     "tslint": "^5.16.0",
     "tslint-react": "^4.0.0",
     "typescript": "^3.4.3"
-  },
-  "peerDependencies": {
-    "@mornya/react-vessel": "latest"
   },
   "browserslist": [
     ">0.2%",

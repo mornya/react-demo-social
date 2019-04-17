@@ -31,7 +31,6 @@
   "dependencies": {
     "@mornya/react-helper": "latest",
     "@mornya/react-social-libs": "^2.0.4",
-    "@mornya/react-vessel": "latest",
     "classnames": "latest",
     "immer": "latest",
     "normalize.css": "latest",

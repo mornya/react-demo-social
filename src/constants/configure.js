@@ -8,7 +8,7 @@ export default {
       scope: [],
     },
     kakao: {
-      appId: 'f088721e2c0e995d5f8741c759250181',
+      appId: 'b82fc3acb12c88fdb98e5e325fe6ba48',
     },
   },
 }

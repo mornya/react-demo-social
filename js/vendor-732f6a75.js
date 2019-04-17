@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],[,function(e,o,d){d("./node_modules/react/index.js"),d("../../mornya-react-vessel/node_modules/@hot-loader/react-dom/index.js"),d("./node_modules/react-router-dom/esm/react-router-dom.js"),d("./node_modules/react-redux/es/index.js"),d("./node_modules/redux/es/redux.js"),e.exports=d("./node_modules/immer/dist/immer.module.js")}],[[1,3,0,6]]]);
+//# sourceMappingURL=vendor-732f6a75.js.map

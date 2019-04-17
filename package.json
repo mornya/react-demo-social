@@ -9,7 +9,7 @@
     "share",
     "widget"
   ],
-  "homepage": "",
+  "homepage": "https://mornya.github.io/react-demo-social",
   "license": "MIT",
   "author": "mornya <mornya78@gmail.com>",
   "private": true,
@@ -22,7 +22,8 @@
     "build": "react-vessel build",
     "start": "react-vessel start",
     "test": "react-vessel test",
-    "analyze": "react-vessel analyze"
+    "analyze": "react-vessel analyze",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "engines": {
     "node": ">=8",
@@ -49,6 +50,7 @@
     "@types/react-dom": "^16.8.4",
     "@types/react-redux": "^7.0.6",
     "@types/react-router-dom": "^4.3.2",
+    "gh-pages": "^2.0.1",
     "jest": "^24.7.1",
     "jest-transform-file": "^1.1.1",
     "prop-types": "^15.7.2",

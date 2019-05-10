@@ -37,27 +37,27 @@
     "normalize.css": "latest",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-redux": "^7.0.2",
+    "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.11",
+    "@types/jest": "^24.0.12",
     "@types/jest-diff": "latest",
-    "@types/node": "^11.13.4",
-    "@types/react": "^16.8.13",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
-    "@types/react-redux": "^7.0.6",
-    "@types/react-router-dom": "^4.3.2",
+    "@types/react-redux": "^7.0.8",
+    "@types/react-router-dom": "^4.3.3",
     "gh-pages": "^2.0.1",
-    "jest": "^24.7.1",
-    "jest-transform-file": "^1.1.1",
+    "jest": "^24.8.0",
+    "jest-transform-stub": "^2.0.0",
     "prop-types": "^15.7.2",
     "ts-jest": "latest",
     "tslint": "^5.16.0",
     "tslint-react": "^4.0.0",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.5"
   },
   "browserslist": [
     ">0.2%",
@@ -86,7 +86,7 @@
   "jest": {
     "transform": {
       ".[t|j]sx?$": "ts-jest",
-      ".(bmp|gif|jpg|jpeg|png|svg|webp)$": "jest-transform-file"
+      ".(bmp|gif|jpe?g|png|svg|webp|s?css|eot|[t|o]tf|woff2?)$": "jest-transform-stub"
     },
     "testRegex": "\\.test\\.[t|j]sx?$",
     "moduleFileExtensions": [

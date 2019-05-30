@@ -98,11 +98,12 @@ button {
       z-index: 0;
     }
     & > h1 {
+      margin: 0;
       line-height: 1;
       font-size: 5em;
     }
     & > p {
-      margin: 0;
+      margin: 20px 0;
       line-height: 1.4em;
       font-size: 0.9em;
     }

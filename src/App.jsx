@@ -11,9 +11,9 @@ export default function App () {
       <img src={logo} className="app-logo" alt="React.js Logo"/>
 
       <header>
-        <h1>React Social Demo</h1>
-        <p>Social Shares and Widgets are now ready!</p>
-        <p>&nbsp;</p>
+        <h1>React Demo</h1>
+        <p>Social Share and Widget library is now ready!</p>
+        <br/>
 
         <div className="btn-grp">
           <div>

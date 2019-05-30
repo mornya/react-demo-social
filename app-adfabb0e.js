@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{24:function(n,o,e){e(25),n.exports=e(27)},27:function(n,o,e){"use strict";e.r(o),function(n){var o=e(21),t={application:{component:function(){return Promise.all([e.e(7),e.e(8)]).then(e.bind(null,48))},rootElementId:"app",useServiceWorker:!0,useBrowserRouter:!0,onHotReload:function(o){return n.hot&&!1}}};o.Ignite.init(t)}.call(this,e(16)(n))}},[[24,2,0,5]]]);
+//# sourceMappingURL=app-adfabb0e.js.map

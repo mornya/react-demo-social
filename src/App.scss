@@ -76,11 +76,16 @@ button {
   overflow: hidden;
   position: relative;
 
-  .app-logo {
+  &:before {
+    content: "";
     position: absolute;
-    top: -512px;
-    right: -512px;
-    height: 1024px;
+    z-index: 0;
+    top: -70vh;
+    right: -55vw;
+    width: 160vw;
+    height: 160vh;
+    background: url("./assets/logo.svg") 50% 50% no-repeat;
+    -webkit-animation: app-logo-spin infinite 60s linear;
     animation: app-logo-spin infinite 60s linear;
   }
 
@@ -115,6 +120,66 @@ button {
 
     .btn-grp {
       text-align: center;
+    }
+
+    .kakao-wrap {
+      text-align: center;
+
+      .kakao-title {
+        font-size: 16px;
+        font-weight: bold;
+        vertical-align: middle;
+        & + button {
+          margin: 0 12px 0 4px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  nav {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    height: 80px;
+
+    ul {
+      display: inline-block;
+      margin: 0;
+      padding: 0 20px;
+      list-style: none;
+
+      li {
+        float: left;
+        margin-right: 30px;
+        line-height: 48px;
+        font-size: 13px;
+        font-weight: bold;
+
+        a {
+          padding: 10px 5px;
+          height: 40px;
+          border-bottom: 0;
+          transition: border-bottom-width 200ms ease-in-out;
+        }
+        a:hover, a:link, a:visited {
+          color: $--color-primary;
+        }
+        a:link, a:visited {
+          text-decoration: none;
+        }
+        a:hover {
+          border-bottom: 2px solid $--color-primary;
+        }
+
+        &:after {
+          content: "";
+          display: block;
+          clear: both;
+        }
+      }
     }
   }
 

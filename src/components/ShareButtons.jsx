@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Share } from '@mornya/react-social-libs'
 import Configure from 'constants/configure'
 
-export default function () {
+export default function ShareButtons () {
   return (
     <div>
       <Share.Band title="밴드 공유" extra={{ hashtags: ['react', 'demo'] }}/>

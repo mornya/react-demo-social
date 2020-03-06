@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Share } from '@mornya/react-social-libs'
 import Configure from 'constants/configure'
 
-export default function () {
+export default function KakaoShare () {
   const appId = Configure.social.kakao.appId
 
   return (

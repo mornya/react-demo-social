@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Widget } from '@mornya/react-social-libs'
 import Configure from 'constants/configure'
 
-export default function () {
+export default function WidgetButtons () {
   return (
     <div>
       <div>

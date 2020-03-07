@@ -20,6 +20,10 @@ const option: Ignite.IOption = {
   },
   serviceWorker: {
     isUse: process.env.NODE_ENV === 'production',
+    config: {
+      url: './',
+      file: 'service-worker.js',
+    },
   },
 };
 

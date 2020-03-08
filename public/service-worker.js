@@ -3,8 +3,7 @@ self.addEventListener('install', function(event) {
     self.caches.open('v1').then(function(cache) {
       return cache.addAll([
         'favicon.ico',
-        'index.html',
-        'manifest.json'
+        'index.html'
       ])
     })
   )

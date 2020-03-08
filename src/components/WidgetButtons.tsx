@@ -1,6 +1,6 @@
-import * as React from 'react'
-import { Widget } from '@mornya/react-social-libs'
-import Configure from 'constants/configure'
+import * as React from 'react';
+import { Widget } from '@mornya/react-social-libs';
+import Configure from '@/constants/configure';
 
 export default function WidgetButtons () {
   return (
@@ -31,5 +31,5 @@ export default function WidgetButtons () {
         <Widget.GoogleHangout/>
       </div>
     </div>
-  )
+  );
 }

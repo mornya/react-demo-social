@@ -10,9 +10,9 @@
 /tmp
 /temp
 /temporary
+/.env
+/.env.local
 .DS_Store
-.env
-.env.local
 .eslintcache
 
 # Logs

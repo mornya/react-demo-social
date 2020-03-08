@@ -1,6 +1,6 @@
-import * as React from 'react'
-import ShareButtons from 'components/ShareButtons'
-import WidgetButtons from 'components/WidgetButtons'
+import * as React from 'react';
+import ShareButtons from '@/components/ShareButtons';
+import WidgetButtons from '@/components/WidgetButtons';
 
 export default function ShareAndWidget () {
   return (
@@ -9,5 +9,5 @@ export default function ShareAndWidget () {
       <hr/>
       <WidgetButtons/>
     </div>
-  )
+  );
 }

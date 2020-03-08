@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { Share } from '@mornya/react-social-libs'
-import Configure from 'constants/configure'
+import React from 'react';
+import { Share } from '@mornya/react-social-libs';
+import Configure from '@/constants/configure';
 
 export default function KakaoShare () {
-  const appId = Configure.social.kakao.appId
+  const appId = Configure.social.kakao.appId;
 
   return (
     <div className="kakao-wrap">
@@ -21,13 +21,13 @@ export default function KakaoShare () {
               imageUrl: 'http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
               link: {
                 mobileWebUrl: 'https://developers.kakao.com',
-                webUrl: 'https://developers.kakao.com'
-              }
+                webUrl: 'https://developers.kakao.com',
+              },
             },
             social: {
               likeCount: 286,
               commentCount: 45,
-              sharedCount: 845
+              sharedCount: 845,
             },
             //buttonTitle: '그냥 보기',
             buttons: [
@@ -35,17 +35,17 @@ export default function KakaoShare () {
                 title: '웹으로 보기',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
+                  webUrl: 'https://developers.kakao.com',
+                },
               },
               {
                 title: '앱으로 보기',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
-              }
-            ]
+                  webUrl: 'https://developers.kakao.com',
+                },
+              },
+            ],
           },
         }}
       />
@@ -61,7 +61,7 @@ export default function KakaoShare () {
             headerTitle: 'WEEKLY MAGAZINE',
             headerLink: {
               mobileWebUrl: 'https://developers.kakao.com',
-              webUrl: 'https://developers.kakao.com'
+              webUrl: 'https://developers.kakao.com',
             },
             contents: [
               {
@@ -70,41 +70,41 @@ export default function KakaoShare () {
                 imageUrl: 'http://mud-kage.kakao.co.kr/dn/bDPMIb/btqgeoTRQvd/49BuF1gNo6UXkdbKecx600/kakaolink40_original.png',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
+                  webUrl: 'https://developers.kakao.com',
+                },
               }, {
                 title: '크림으로 이해하는 커피이야기',
                 description: '음식',
                 imageUrl: 'http://mud-kage.kakao.co.kr/dn/QPeNt/btqgeSfSsCR/0QJIRuWTtkg4cYc57n8H80/kakaolink40_original.png',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
+                  webUrl: 'https://developers.kakao.com',
+                },
               }, {
                 title: '감성이 가득한 분위기',
                 description: '사진',
                 imageUrl: 'http://mud-kage.kakao.co.kr/dn/c7MBX4/btqgeRgWhBy/ZMLnndJFAqyUAnqu4sQHS0/kakaolink40_original.png',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
-              }
+                  webUrl: 'https://developers.kakao.com',
+                },
+              },
             ],
             buttons: [
               {
                 title: '웹으로 보기',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
+                  webUrl: 'https://developers.kakao.com',
+                },
               },
               {
                 title: '앱으로 보기',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
-              }
+                  webUrl: 'https://developers.kakao.com',
+                },
+              },
             ],
           },
         }}
@@ -126,22 +126,22 @@ export default function KakaoShare () {
               imageUrl: 'http://mud-kage.kakao.co.kr/dn/bSbH9w/btqgegaEDfW/vD9KKV0hEintg6bZT4v4WK/kakaolink40_original.png',
               link: {
                 mobileWebUrl: 'https://developers.kakao.com',
-                webUrl: 'https://developers.kakao.com'
-              }
+                webUrl: 'https://developers.kakao.com',
+              },
             },
             social: {
               likeCount: 286,
               commentCount: 45,
-              sharedCount: 845
+              sharedCount: 845,
             },
             buttons: [
               {
                 title: '웹으로 보기',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
-              }
+                  webUrl: 'https://developers.kakao.com',
+                },
+              },
             ],
           },
         }}
@@ -162,29 +162,29 @@ export default function KakaoShare () {
               imageUrl: 'http://mud-kage.kakao.co.kr/dn/RY8ZN/btqgOGzITp3/uCM1x2xu7GNfr7NS9QvEs0/kakaolink40_original.png',
               link: {
                 mobileWebUrl: 'https://developers.kakao.com',
-                webUrl: 'https://developers.kakao.com'
-              }
+                webUrl: 'https://developers.kakao.com',
+              },
             },
             commerce: {
               regularPrice: 208800,
               discountPrice: 146160,
-              discountRate: 30
+              discountRate: 30,
             },
             buttons: [
               {
                 title: '구매하기',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
+                  webUrl: 'https://developers.kakao.com',
+                },
               },
               {
                 title: '공유하기',
                 link: {
                   mobileWebUrl: 'https://developers.kakao.com',
-                  webUrl: 'https://developers.kakao.com'
-                }
-              }
+                  webUrl: 'https://developers.kakao.com',
+                },
+              },
             ],
           },
         }}
@@ -201,7 +201,7 @@ export default function KakaoShare () {
             text: '공유용 텍스트 입니다. 공유용 텍스트 입니다. 공유용 텍스트 입니다. 공유용 텍스트 입니다. 공유용 텍스트 입니다. 공유용 텍스트 입니다.',
             link: {
               mobileWebUrl: 'https://developers.kakao.com',
-              webUrl: 'https://developers.kakao.com'
+              webUrl: 'https://developers.kakao.com',
             },
             buttonTitle: '그냥 보기',
           },
@@ -252,11 +252,11 @@ export default function KakaoShare () {
               discountRate: 100 - Math.floor((10000 / 12000) * 100), // 할인률 = 100 - (할인가격 / 일반가격) * 100
             },
           },
-          onComplete (result, response) {
-            console.warn('KAKAO', result, response)
+          onComplete (isSuccess: boolean, response: Response | null) {
+            console.log('KAKAO', isSuccess, response);
           },
         }}
       />
     </div>
-  )
+  );
 }

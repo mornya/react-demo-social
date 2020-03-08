@@ -1,4 +1,4 @@
-export default {
+export default <IConfigure>{
   social: {
     facebook: {
       appId: process.env.SDK_FACEBOOK_APP_ID,

@@ -1,6 +1,6 @@
-import * as React from 'react'
-import { Share } from '@mornya/react-social-libs'
-import Configure from 'constants/configure'
+import * as React from 'react';
+import { Share } from '@mornya/react-social-libs';
+import Configure from '@/constants/configure';
 
 export default function ShareButtons () {
   return (
@@ -36,8 +36,8 @@ export default function ShareButtons () {
               discountRate: 100 - Math.floor((10000 / 12000) * 100), // 할인률 = 100 - (할인가격 / 일반가격) * 100
             },
           },
-          onComplete (result, response) {
-            console.warn('KAKAO', result, response)
+          onComplete (isSuccess: boolean, response: Response | null) {
+            console.log('KAKAO', isSuccess, response);
           },
         }}
       />
@@ -55,5 +55,5 @@ export default function ShareButtons () {
         onComplete={() => alert('클립보드에 복사되었습니다.')}
       />
     </div>
-  )
+  );
 }

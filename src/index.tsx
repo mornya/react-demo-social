@@ -17,6 +17,7 @@ const option: Ignite.IOption = {
   },
   router: {
     isUseBrowserRouter: true,
+    basename: process.env.PUBLIC_URL,
   },
   serviceWorker: {
     isUse: process.env.NODE_ENV === 'production',

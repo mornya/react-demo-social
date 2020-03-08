@@ -49,6 +49,7 @@
     "src/**/*"
   ],
   "exclude": [
+    "coverage",
     "public",
     "src/assets",
     "dist",

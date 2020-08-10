@@ -9,7 +9,8 @@
     "demo",
     "social",
     "share",
-    "widget"
+    "widget",
+    "front-end"
   ],
   "homepage": "https://mornya.github.io/react-demo-social",
   "license": "MIT",

@@ -1,10 +1,8 @@
-import { Ignite } from '@mornya/react-helper';
+import { Ignitor } from '@ignitor/core';
 import { Loader } from '@mornya/react-social-libs';
 import Configure from '@/constants/configure';
 
-declare var module: Ignite.IHotNodeModule;
-
-const option: Ignite.IOption = {
+const option: Ignitor.Option = {
   application: {
     component: () => import('./App'),
     rootElementId: 'app',
@@ -28,4 +26,4 @@ const option: Ignite.IOption = {
   },
 };
 
-Ignite.init(option);
+Ignitor.initialize(option);

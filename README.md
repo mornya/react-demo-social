@@ -1,4 +1,4 @@
-# React Demo: Social Share and Widgets
+# react-demo-social
 A demo React.js application for Social Share and Widget Libs ([@mornya/react-social-libs](https://www.npmjs.com/package/@mornya/react-social-libs)).
 
 > This project has been created by [React Vessel](https://www.npmjs.com/package/@mornya/react-vessel).
@@ -17,8 +17,8 @@ DEMO: [https://mornya.github.io/react-demo-social](https://mornya.github.io/reac
 ```bash
 $ npm install -g @mornya/react-vessel @lintest/cli
 
-$ git clone https://github.com/mornya/react-demo-scrolling-anchor
-$ cd react-demo-scrolling-anchor
+$ git clone https://github.com/mornya/react-demo-social
+$ cd react-demo-social
 $ npm install
 $ lintest export
 ```

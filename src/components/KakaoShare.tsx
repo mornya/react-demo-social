@@ -2,8 +2,10 @@ import React from 'react';
 import { Share } from '@mornya/react-social-libs';
 import Configure from '@/constants/configure';
 
-export default function KakaoShare () {
-  const appId = Configure.social.kakao.appId;
+type Props = {};
+
+const KakaoShare: React.FC<Props> = (_props: Props) => {
+  const { appId } = Configure.social.kakao;
 
   return (
     <div className="kakao-wrap">
@@ -259,4 +261,6 @@ export default function KakaoShare () {
       />
     </div>
   );
-}
+};
+
+export default KakaoShare;

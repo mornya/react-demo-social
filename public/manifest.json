@@ -1,15 +1,89 @@
 {
+  "name": "React Demo Social",
   "short_name": "React App",
-  "name": "Sample React Application",
-  "icons": [
+  "description": "React Demo Application",
+  "lang": "ko",
+  "display": "fullscreen",
+  "start_url": "/?source=pwa",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "scope": "/",
+  "orientation": "portrait",
+  "prefer_related_applications": true,
+  "related_applications": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "platform": "play",
+      "id": "com.mornya.app"
     }
   ],
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "shortcuts": [
+    {
+      "name": "React Demo Social",
+      "short_name": "React App",
+      "description": "React Demo Application",
+      "url": "/?source=pwa",
+      "icons": [
+        {
+          "type": "image/png",
+          "src": "https://mornya.github.io/images/logos/mornya/256.png",
+          "sizes": "256x256"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/maskable@96.png",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/maskable@128.png",
+      "sizes": "128x128",
+      "purpose": "any maskable"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/maskable@512.png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/64.png",
+      "sizes": "64x64"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/128.png",
+      "sizes": "128x128"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/192.png",
+      "sizes": "192x192"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/256.png",
+      "sizes": "256x256"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/512.png",
+      "sizes": "512x512"
+    },
+    {
+      "type": "image/png",
+      "src": "https://mornya.github.io/images/logos/mornya/1024.png",
+      "sizes": "1024x1024"
+    }
+  ]
 }

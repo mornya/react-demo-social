@@ -4,10 +4,12 @@ import loadable from '@loadable/component';
 import '@mornya/react-social-libs/dist/res/share.css';
 import './App.scss';
 
+type Props = {};
+
 const ShareAndWidget = loadable(() => import('@/components/ShareAndWidget'));
 const KakaoShare = loadable(() => import('@/components/KakaoShare'));
 
-export default function App () {
+const App: React.FC<Props> = (_props: Props) => {
   return (
     <div className="app-wrapper">
       <nav>
@@ -31,4 +33,6 @@ export default function App () {
       </footer>
     </div>
   );
-}
+};
+
+export default App;

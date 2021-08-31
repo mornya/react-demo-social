@@ -6,7 +6,7 @@ const option: Ignitor.Option = {
   application: {
     component: () => import('./App'),
     rootElementId: 'app',
-    onHotReload: next => module.hot && module.hot.accept('./App', next),
+    onHotReload: next => module.hot?.accept('./App', next),
     onRender () {
       Loader.initKakaoSDK(Configure.social.kakao.appId ?? '');
       Loader.initFacebookSDK(Configure.social.facebook.appId ?? '', process.env.NODE_ENV !== 'production');

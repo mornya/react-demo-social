@@ -1,8 +1,10 @@
-import * as React from 'react';
+import React from 'react';
 import { Widget } from '@mornya/react-social-libs';
 import Configure from '@/constants/configure';
 
-export default function WidgetButtons () {
+type Props = {};
+
+const WidgetButtons: React.FC<Props> = (_props: Props) => {
   return (
     <div>
       <div>
@@ -32,4 +34,6 @@ export default function WidgetButtons () {
       </div>
     </div>
   );
-}
+};
+
+export default WidgetButtons;

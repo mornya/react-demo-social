@@ -1,8 +1,10 @@
-import * as React from 'react';
+import React from 'react';
 import { Share } from '@mornya/react-social-libs';
 import Configure from '@/constants/configure';
 
-export default function ShareButtons () {
+type Props = {};
+
+const ShareButtons: React.FC<Props> = (_props: Props) => {
   return (
     <div>
       <Share.Band title="밴드 공유" extra={{ hashtags: ['react', 'demo'] }}/>
@@ -56,4 +58,6 @@ export default function ShareButtons () {
       />
     </div>
   );
-}
+};
+
+export default ShareButtons;

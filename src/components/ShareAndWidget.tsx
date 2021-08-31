@@ -1,8 +1,10 @@
-import * as React from 'react';
+import React from 'react';
 import ShareButtons from '@/components/ShareButtons';
 import WidgetButtons from '@/components/WidgetButtons';
 
-export default function ShareAndWidget () {
+type Props = {};
+
+const ShareAndWidget: React.FC<Props> = (_props: Props) => {
   return (
     <div className="btn-grp">
       <ShareButtons/>
@@ -10,4 +12,6 @@ export default function ShareAndWidget () {
       <WidgetButtons/>
     </div>
   );
-}
+};
+
+export default ShareAndWidget;

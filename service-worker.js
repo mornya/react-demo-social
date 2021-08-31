@@ -1,6 +1,7 @@
 const STATIC_FILES = [
   '/favicon.ico',
   '/index.html',
+  '/manifest.json',
 ]
 const CACHE_URLS = [
   '/fonts/',
